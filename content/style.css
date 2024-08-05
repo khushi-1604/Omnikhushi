@@ -523,7 +523,7 @@ strong {
   line-height: 1.8;
 }
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 .cta {
   display: grid;
@@ -594,6 +594,7 @@ strong {
 }
 .footer {
   padding: 9.6rem 0;
+  border-top: 1pxsolid #eee;
 }
 .contacts {
   font-size: 1.6rem;
