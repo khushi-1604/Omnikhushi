@@ -175,6 +175,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 .grid--center-v {
   align-items: center;
 }
@@ -588,4 +591,52 @@ strong {
   color: #452608;
   border: 2px solid #452608;
   transform: translateY(-9%);
+}
+.footer {
+  padding: 9.6rem 0;
+}
+.contacts {
+  font-size: 1.6rem;
+  color: #777;
+}
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #777;
+  transition: all 0.3s;
+}
+.footer-link:active,
+.footer-link:hover {
+  color: #555;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  list-style: none;
+}
+.social-link {
+  height: 2.4rem;
+  width: 2.4rem;
+  padding: 10px 10px;
+}
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.8;
 }
